@@ -9,7 +9,6 @@ import { BoardsModule } from './resources/boards/boards.module';
 import { TasksModule } from './resources/tasks/tasks.module';
 import { ColumnsModule } from './resources/columns/columns.module';
 import { FileModule } from './resources/file/files.module';
-
 import ormconfig from './ormconfig';
 
 @Module({
