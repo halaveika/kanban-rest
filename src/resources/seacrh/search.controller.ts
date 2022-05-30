@@ -5,6 +5,7 @@ import { AuthGuard } from '../auth/jwt-auth.guard';
 import { ITask, Task } from '../tasks/tasks.entity';
 import { SearchService } from './search.service';
 
+@ApiTags('Search')
 @ApiBearerAuth('token')
 @Controller('/search/tasks')
 @UseGuards(AuthGuard)
